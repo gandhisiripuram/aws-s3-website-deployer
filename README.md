@@ -1,4 +1,4 @@
-# Project 02: S3 Static Website Automator
+# S3 Static Website Automator
 
 A Python (Boto3) utility to deploy a static HTML website to AWS S3 in seconds.
 
