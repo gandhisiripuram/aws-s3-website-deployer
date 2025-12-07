@@ -18,3 +18,14 @@ To automate the creation of a public-facing website, handling the complex securi
 1. Place HTML/Images in `site_folder/`.
 2. Run `python3 deploy.py`.
 3. Receive live URL.
+
+## Validation
+**Proof of Automation:**
+
+### 1. The Live Website
+The Python script successfully uploaded the HTML and assets, configured MIME types, and exposed the public URL.
+![Live Website](screenshots/live_website.png)
+
+### 2. The Security Configuration
+The script programmaticallly removed "Block Public Access" and applied the JSON Bucket Policy to allow global read access.
+![Bucket Policy](screenshots/bucket_policy.png)
